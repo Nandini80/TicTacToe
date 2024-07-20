@@ -1,0 +1,73 @@
+/* Add this CSS in your stylesheet or in a <style> tag within your component */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-board {
+    margin-right: 20px;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border: 1px solid #999;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+  }
+
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
+  .game-info ol, .game-info ul {
+    padding-left: 30px;
+  }
+  
+  .game-info button {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  .game-info button:hover {
+    background-color: #45a049;
+  }
+  
